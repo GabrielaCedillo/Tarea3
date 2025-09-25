@@ -37,7 +37,7 @@ function agregarProducto() {
 // Mostrar carrito con precio Total
 function mostrarCarrito() {
     if (carrito.length === 0) {
-        alert("Tu carrito está vacío.");
+        alert("Carrito vacío");
         return;
     }
 
@@ -73,7 +73,7 @@ function mostrarMenu() {
                 mostrarCarrito();
                 break;
             case "3":
-                alert("Gracias por tu compra. ¡Hasta pronto!");
+                alert("Gracias por tu compra");
                 break;
             default:
                 alert("Opción no válida");
